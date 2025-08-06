@@ -29,3 +29,6 @@ These genes were significantly upregulated following vemurafenib treatment and a
 - Differential expression heatmap  
 - KEGG pathway barplots  
 - Volcano plot 
+
+🧠 Interpretation & Biological Insights
+Among the top upregulated genes, NUPR1 and CD36 have been previously associated with stress response and cancer cell survival. Notably, NUPR1 is involved in the p53 signaling pathway, which was also identified as significantly enriched in KEGG analysis. This suggests that vemurafenib treatment may trigger a stress-induced p53-mediated apoptotic response. However, the upregulation of CD36, known to promote lipid uptake and metastasis, might indicate adaptive survival mechanisms. These insights align with prior studies indicating complex responses to BRAF inhibition in melanoma cells.
