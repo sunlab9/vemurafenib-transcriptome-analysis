@@ -1,5 +1,6 @@
 # vemurafenib-transcriptome-analysis
 Transcriptome analysis of BRAFV600E melanoma cells treated with vemurafenib (GSE42872)
+
 ## 🎯 Purpose
 To identify differentially expressed genes and key signaling pathways in melanoma cells treated with vemurafenib, in order to understand its molecular impact and uncover potential therapeutic targets or biomarkers.
 
@@ -25,10 +26,17 @@ To identify differentially expressed genes and key signaling pathways in melanom
 
 These genes were significantly upregulated following vemurafenib treatment and are involved in key cancer-related pathways.
 
+## 🧠 Biological Interpretation
+Among the top upregulated genes, **NUPR1** and **CD36** have been previously associated with stress response and cancer cell survival.  
+Notably, **NUPR1** is involved in the **p53 signaling pathway**, which was also identified as significantly enriched in KEGG analysis.  
+This suggests that vemurafenib treatment may trigger a **stress-induced p53-mediated apoptotic response**.  
+
+However, the upregulation of **CD36**, known to promote **lipid uptake and metastasis**, might indicate **adaptive survival mechanisms**.  
+These insights align with prior studies indicating **complex responses to BRAF inhibition** in melanoma cells.
+
 ## 📊 Visualizations
 - Differential expression heatmap  
 - KEGG pathway barplots  
-- Volcano plot 
+- Volcano plot
 
-🧠 Interpretation & Biological Insights
-Among the top upregulated genes, NUPR1 and CD36 have been previously associated with stress response and cancer cell survival. Notably, NUPR1 is involved in the p53 signaling pathway, which was also identified as significantly enriched in KEGG analysis. This suggests that vemurafenib treatment may trigger a stress-induced p53-mediated apoptotic response. However, the upregulation of CD36, known to promote lipid uptake and metastasis, might indicate adaptive survival mechanisms. These insights align with prior studies indicating complex responses to BRAF inhibition in melanoma cells.
+
